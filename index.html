@@ -5,13 +5,55 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Promimport</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css">
+  
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <ul id='menu'>
+    <li data-menuanchor="header"><a href="#header">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="products"><a href="#products">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="services"><a href="#services">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="best-partner"><a href="#best-partner">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="projects"><a href="#projects">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="certificates"><a href="#certificates">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="feedback"><a href="#feedback">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="our-partners"><a href="#our-partners">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="form"><a href="#form">
+      <span class="nav-point"></span>
+    </a></li>
+    <div class="nav-line"></div>
+    <li data-menuanchor="footer"><a href="#footer">
+      <span class="nav-point"></span>
+    </a></li>
+  </ul>
   <div id="fullpage">
     <header class="section header">
   <div class="header__top d-none d-sm-block">
@@ -181,8 +223,7 @@
         <li>Обратные клапаны</li>
         <li>Делители потока</li>
       </ul>
-      <div class="w-100 d-xl-none"></div>
-      <ul class="col">
+      <ul class="col py-3 py-xl-0">
         <li>Вкладыши подшипников</li>
         <li>Топливные насосы</li>
         <li>Корпуса подшипников</li>
@@ -323,9 +364,505 @@
     </div>
   </div>
 </section>
-    
+    <section class="section best-partner">
+  <div class="partner-image__box">
+    <img class="best-partner__cup" src="img/best-partner/partner.png" alt="Кубок">
+  </div>
+  <div class="best-partner__inner">
+    <div class="best-partner__content">
+      <h2 class="section__title text-white">
+        Лучший новый партнёр BHGE 2018
+      </h2>
+      <p class="best-partner__subtitle">
+        Компания Промимпорт является официальным парнтёром BHGE.<br><br>
+  
+        Как признанный мировой производитель поршневых компрессоров, корпорация Промимпорт-BHGE соответствует промышленным стандартам посредством высококачественного проектирования и производства, передовых промышленных исследований и разработок, а так же, не имеющей себе равных, поддержки конечного потребителя.
+      </p>
+      <span class="best-partner__rank">В 2018 году мы получили звание лучшего партнёра BHGE</span>
+    </div>
+  </div>
+</section>
+    <section class="section projects">
+  <div class="projects__inner">
+    <div class="projects__top d-flex justify-content-between align-items-center">
+      <div class="section__title">Более 746 выполненных проектов</div>
+      <div class="slider__btn-container d-flex">
+        <div class="slider__btn_prev d-flex justify-content-center align-items-center flex-column">
+          <div class="slider__btn-line"></div>
+          <div class="slider__btn-line"></div>
+        </div>
+        <div class="slider__btn_next d-flex justify-content-center align-items-center flex-column">
+          <div class="slider__btn-line"></div>
+          <div class="slider__btn-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="projects__slider owl-carousel">
+      <div class="projects__slider-item row gx-0">
+        <img src="img/projects/cutomer.png" alt="Заказчик" class="projects__slider-image col-6 px-0">
+        <div class="projects__slider-contents col-6">
+           <h3 class="section__h3">Заказчик: ОАО “Томскнефть”, Россия</h3>
+           <div class="projects__slider-content row gx-0  justify-content-between">
+            <div class="col-sm-6 slider-content__top">
+              <span class="projects__slider-content-title">
+                Вид услуги
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Модернизацию с использованиемчасти элементов устаревшего оборудования
+              </p>
+            </div>
+            <div class="col-sm-6 slider-content__top">
+              <span class="projects__slider-content-title">
+                Решение
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Проведение планового капитального обслуживания газогенератора<br> Rolls-Royce по достижении наработки в 24 000 часов в 2017 г. на ремонтной базе
+              </p>
+            </div>
+            <div class="col-12">
+              <span class="projects__slider-content-title">
+                Задача
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Модернизация двух систем управления для газогенераторов Rolls-Royce 2013 гг. Техническая поддержка. Организация обучения специалистов по работе и эксплуатации газогенераторов
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <span class="projects__slider-content-title">
+                Вид услуги
+              </span>
+              <span class="projects__slider-content-subtitle">
+                Поршневой компрессор SHMB
+              </span>
+              <span class="projects__slider-content-subtitle">
+                Насосный агрегат Lufkin Gen 2
+              </span>
+            </div>
+            <div class="col-sm-6">
+              <span class="projects__slider-content-title">
+                Срок реалезации проекта
+                с момента заявки
+              </span>
+              <span class="projects__slider-content-subtitle">
+                24 рабочих дня
+              </span>
+            </div>
+           </div>
+        </div>
+      </div>
+      <div class="projects__slider-item row gx-0">
+        <img src="img/projects/cutomer.png" alt="Заказчик" class="projects__slider-image col-6 px-0">
+        <div class="projects__slider-contents col-6">
+           <h3 class="section__h3">Заказчик: ОАО “Томскнефть”, Россия</h3>
+           <div class="projects__slider-content row justify-content-between gx-0">
+            <div class="col-sm-6 slider-content__top">
+              <span class="projects__slider-content-title">
+                Вид услуги
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Модернизацию с использованиемчасти элементов устаревшего оборудования
+              </p>
+            </div>
+            <div class="col-sm-6 slider-content__top">
+              <span class="projects__slider-content-title">
+                Решение
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Проведение планового капитального обслуживания газогенератора<br> Rolls-Royce по достижении наработки в 24 000 часов в 2017 г. на ремонтной базе
+              </p>
+            </div>
+            <div class="col-12">
+              <span class="projects__slider-content-title">
+                Задача
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Модернизация двух систем управления для газогенераторов Rolls-Royce 2013 гг. Техническая поддержка. Организация обучения специалистов по работе и эксплуатации газогенераторов
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <span class="projects__slider-content-title">
+                Вид услуги
+              </span>
+              <span class="projects__slider-content-subtitle">
+                Поршневой компрессор SHMB
+              </span>
+              <span class="projects__slider-content-subtitle">
+                Насосный агрегат Lufkin Gen 2
+              </span>
+            </div>
+            <div class="col-sm-6">
+              <span class="projects__slider-content-title">
+                Срок реалезации проекта
+                с момента заявки
+              </span>
+              <span class="projects__slider-content-subtitle">
+                24 рабочих дня
+              </span>
+            </div>
+           </div>
+        </div>
+      </div>
+      <div class="projects__slider-item row gx-0">
+        <img src="img/projects/cutomer.png" alt="Заказчик" class="projects__slider-image col-6 px-0">
+        <div class="projects__slider-contents col-6">
+           <h3 class="section__h3">Заказчик: ОАО “Томскнефть”, Россия</h3>
+           <div class="projects__slider-content row justify-content-between gx-0">
+            <div class="col-sm-6 slider-content__top">
+              <span class="projects__slider-content-title">
+                Вид услуги
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Модернизацию с использованиемчасти элементов устаревшего оборудования
+              </p>
+            </div>
+            <div class="col-sm-6 slider-content__top">
+              <span class="projects__slider-content-title">
+                Решение
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Проведение планового капитального обслуживания газогенератора<br> Rolls-Royce по достижении наработки в 24 000 часов в 2017 г. на ремонтной базе
+              </p>
+            </div>
+            <div class="col-12">
+              <span class="projects__slider-content-title">
+                Задача
+              </span>
+              <p class="projects__slider-content-subtitle">
+                Модернизация двух систем управления для газогенераторов Rolls-Royce 2013 гг. Техническая поддержка. Организация обучения специалистов по работе и эксплуатации газогенераторов
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <span class="projects__slider-content-title">
+                Вид услуги
+              </span>
+              <span class="projects__slider-content-subtitle">
+                Поршневой компрессор SHMB
+              </span>
+              <span class="projects__slider-content-subtitle">
+                Насосный агрегат Lufkin Gen 2
+              </span>
+            </div>
+            <div class="col-sm-6">
+              <span class="projects__slider-content-title">
+                Срок реалезации проекта
+                с момента заявки
+              </span>
+              <span class="projects__slider-content-subtitle">
+                24 рабочих дня
+              </span>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
     
   </div>
+</section>
+    <div class="section certificates">
+  <div class="certificates__inner">
+    <div class="section__title">
+      Наши сертификаты
+    </div>
+    <div class="certificates__contents row justify-content-between gx-0">
+      <div class="certificates__left_col col-6">
+        <div class="cirtificates__main-certificate-box">
+          <img src="img/certificates/main-certificate.png" alt="Сертификат" class="main-certificate">
+        </div>
+      </div>
+      <div class="certificates__right_col col-6">
+        <p class="certificates__subtitle">
+          Корпорация Промимпорт-BHGE является крупнейшим в мире производителем оппозитных поршневых компрессоров. Наши компрессоры используются в энергетической промышленности для добычи, переработки, транспортировки, хранения и распределения природного газа от устья скважины до конечного потребителя. Промимпорт-BHGE также поставляет специально разработанные под стандарт API-618 поршневые компрессоры для нефтехимической промышленности.
+        </p>
+        <div class="certificates__all-certificate owl-carousel owl-theme">
+          <div class="certificates__certificate-box">
+            <div class="certificates__certificate-zoom-btn">
+              <img src="img/certificates/search.svg" alt="search">
+            </div>
+            <img src="img/certificates/second-certificate1.png" alt="Сертификат" class="certificate-image">
+          </div>
+          <div class="certificates__certificate-box">
+            <div class="certificates__certificate-zoom-btn">
+              <img src="img/certificates/search.svg" alt="search">
+            </div>
+            <img src="img/certificates/second-certificate2.png" alt="Сертификат" class="certificate-image">
+          </div>
+          <div class="certificates__certificate-box">
+            <div class="certificates__certificate-zoom-btn">
+              <img src="img/certificates/search.svg" alt="search">
+            </div>
+            <img src="img/certificates/second-certificate3.png" alt="Сертификат" class="certificate-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="section feedback">
+  <div class="feedback__inner">
+    <h2 class="section__title text-white">
+      Объективное мнение заказчиков о нашей работе
+    </h2>
+    <div class="feedback__slider-wrapper">
+      <div class="feedback__slider owl-carousel">
+        <div class="feedback__slider-item">
+          <img class="slider__document" src="img/feedback/feedback-document.png" alt="Документ">
+          <img class="slider__image" src="img/feedback/slider-image.png" alt="Обьект">
+        </div>
+        <div class="feedback__slider-item">
+          <img class="slider__document" src="img/feedback/feedback-document.png" alt="Документ">
+          <img class="slider__image" src="img/feedback/slider-image.png" alt="Обьект">
+        </div>
+        <div class="feedback__slider-item">
+          <img class="slider__document" src="img/feedback/feedback-document.png" alt="Документ">
+          <img class="slider__image" src="img/feedback/slider-image.png" alt="Обьект">
+        </div>
+      </div>
+      <div class="feedback__slider_prev feedback__slider-btn d-flex justify-content-center align-items-center flex-column">
+        <div class="slider__btn-line"></div>
+        <div class="slider__btn-line"></div>
+      </div>
+      <div class="feedback__slider_next feedback__slider-btn d-flex justify-content-center align-items-center flex-column">
+        <div class="slider__btn-line"></div>
+        <div class="slider__btn-line"></div>
+      </div>
+    </div>
+    <div class="comment-slider owl-carousel">
+      <div class="comment-slider__item row justify-content-between gx-0">
+        <div class="comment-slider__logo-container d-flex justify-content-between gx-0 align-items-center">
+          <img src="img/feedback/gazprom-logo.svg" alt="Логотип ГАЗПРОМ">
+          <div class="comment-slider__logo-title">
+            <span class="text-white">ТОО «Siemens»</span>
+            <span class="text-white">ПАО «Газпром нефть»</span>
+          </div>
+        </div>
+
+        <div class="comment-slider__comment-box col-lg-6 col-xl-7 col-xxl-8">
+          <p class="comment-slider__comment text-white">
+            Качественный товар! Своевременная работа менеджеров. Все в сроки выполнили, не подвели.
+            Плюс к тому же оказывают техническую консультацию и подобрали необходимый товар для моей задачи! крутооо! Работа менеджеров. Все в сроки выполнили, не подвели. Качественный товар! Плюс к тому же оказывают техническую консультацию и подобрали необходимый товар.
+          </p>
+        </div>
+      </div>
+      <div class="comment-slider__item row justify-content-between gx-0">
+        <div class="comment-slider__logo-container d-flex justify-content-between align-items-center">
+          <img src="img/feedback/gazprom-logo.svg" alt="Логотип ГАЗПРОМ">
+          <div class="comment-slider__logo-title">
+            <span class="text-white">ТОО «Siemens»</span>
+            <span class="text-white">ПАО «Газпром нефть»</span>
+          </div>
+        </div>
+
+        <div class="comment-slider__comment-box col-lg-6 col-xl-7 col-xxl-8">
+          <p class="comment-slider__comment text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel expedita minus perspiciatis corrupti nobis voluptatem temporibus voluptatibus eligendi aliquam perferendis ea tenetur tempore dolores, possimus eveniet harum quod aut deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis deleniti dolorum dolorem repudiandae, incidunt ut est pariatur ipsam eos enim. Repellendus quos eum ab ea cumque deserunt vero? Earum, adipisci.
+          </p>
+        </div>
+      </div>
+      <div class="comment-slider__item row justify-content-between gx-0">
+        <div class="comment-slider__logo-container d-flex justify-content-between align-items-center">
+          <img src="img/feedback/gazprom-logo.svg" alt="Логотип ГАЗПРОМ">
+          <div class="comment-slider__logo-title">
+            <span class="text-white">ТОО «Siemens»</span>
+            <span class="text-white">ПАО «Газпром нефть»</span>
+          </div>
+        </div>
+
+        <div class="comment-slider__comment-box col-lg-6 col-xl-7 col-xxl-8">
+          <p class="comment-slider__comment text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quibusdam totam ratione laborum, vitae error quas, nam veritatis quisquam sapiente voluptatum alias illo iste enim dolore, officiis minus eaque eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis totam nemo voluptatum itaque aut, cupiditate fugit ratione numquam dolore et voluptates accusantium recusandae? Cumque dolor quas facere, numquam mollitia sit.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+    <section class="section our-partners">
+  <div class="our-partners__inner container-fluid">
+    <div class="our-partners__top row justify-content-between">
+      <h2 class="section__title col-auto">
+        Наши партнёры
+      </h2>
+      <div class="our-partners__subtitle-container col-lg-8">
+        <p class="our-partners__subtitle">
+          Корпорация Промимпорт-BHGE является крупнейшим в мире производителем оппозитных поршневых компрессоров. Наши компрессоры используются в энергетической промышленности для добычи, переработки, транспортировки, хранения и распределения природного газа от устья скважины до конечного потребителя. 
+        </p>
+      </div>
+    </div>
+    <div class="our-partners__logo-container row row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 gx-1">
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo1.svg" alt="Лукойл">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo2.svg" alt="Газпром">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo3.svg" alt="Роснефть">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo4.svg" alt="Сибур">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo5.svg" alt="Транснефть">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo6.svg" alt="enel">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo7.svg" alt="AirLequide">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo8.svg" alt="Щиконоазот">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo9.svg" alt="Юнипро">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo10.svg" alt="Томскнефть">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo11.svg" alt="Нижнекамск Нефтехим">
+      </div>
+      <div class="logo-box d-flex align-items-center justify-content-center py-4">
+        <img src="img/our-partners/logo12.svg" alt="Интерраоеэс">
+      </div>
+    </div>
+  </div>
+</section>
+    <div class="section section-form">
+  <div class="section-form__inner">
+    <form class="form" novalidate>
+      <span class="form__title">
+        Свяжитесь с нами  любым
+        удобным способом
+      </span>
+      <div class="form-floating">
+        <input type="name" class="form-control" id="userName" placeholder="Ваше имя">
+        <label for="name">Ваше имя</label>
+        <div id="nameFeedback" class="invalid-feedback"></div>
+      </div>
+      <div class="form-floating">
+        <input type="email" class="form-control" id="userEmail" 
+         placeholder="Электронная почта" >
+        <label for="email">Электронная почта</label>
+        <div id="emailFeedback" class="invalid-feedback"></div>
+      </div>
+      <div class="form-floating">
+        <input type="phone" class="form-control" id="userPhone" 
+         placeholder="Номер телефона">
+        <label for="phone">Номер телефона</label>
+        <div id="phoneFeedback" class="invalid-feedback"></div>
+      </div>
+      <div class="form-floating textarea-floating">
+        <textarea class="form-control" id="inquiry" placeholder="Ваш запрос" 
+        ></textarea>
+        <label class="textarea-label" for="inquiry">Ваш запрос</label>
+      </div>
+      <div class="row justify-content-between align-items-center gx-0">
+        <div class="col-sm-5">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="agree">
+            <label class="form-check-label form__check-label" for="agree">
+              Согласен с политикой
+              конфиденциальности
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="form__btn btn text-white col-auto">
+          Задать вопрос
+        </button>
+      </div>
+    </form>
+    <div class="section-form__footer">
+      <div class="sites-data__bg"></div>
+      <div class="sites-data text-white d-flex align-items-center">
+        <div class="sites-data__col">
+          <div class="sites-data__title">
+            Адрес
+          </div>
+          <span class="sites-data__item">
+            1127452, г. Москва, Балаклавский пр-т, дом 28Б, стр. 1
+          </span>
+        </div>
+        <div class="sites-data__col">
+          <div class="sites-data__title">
+            Телефон
+          </div>
+          <span class="sites-data__item">
+            +7 (495) 108-02-08
+          </span>
+        </div>
+        <div class="sites-data__col">
+          <div class="sites-data__title">
+            Почта
+          </div>
+          <a href="#" class="sites-data__item">
+            info@promimport
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <footer class="footer section">
+  <div class="footer__inner">
+    <div class="footer__body row gx-0 justify-content-between">
+      <div class="footer__data row row-cols-md-1 justify-content-between flex-md-column gx-0 col-md-6 col-xxl-3">
+        <div class="footer__logo-box d-flex justify-content-between">
+          <img src="img/footer/logo.svg" alt="Propmimport логотип" class="footer__logo">
+          <img src="img/footer/bhge-logo.svg" alt="BakerHughes логотип" class="bhge-logo">
+        </div>
+        <div class="footer__social-box d-flex justify-content-between">
+          <div class="footer__social_circle">
+            <img src="img/footer/ok.svg" alt="Однаклассники" class="footer__social">
+          </div>
+          <div class="footer__social_circle">
+            <img src="img/footer/facebook.svg" alt="Однаклассники" class="footer__social">
+          </div>
+          <div class="footer__social_circle">
+            <img src="img/footer/instagram.svg" alt="Однаклассники" class="footer__social">
+          </div>
+          <div class="footer__social_circle">
+            <img src="img/footer/telegram.svg" alt="Однаклассники" class="footer__social">
+          </div>
+        </div>
+        <span class="footer__address">1127452, г. Москва,Балаклавский пр-т, дом 28Б, стр. 1</span>
+        <a href="#" class="footer__mail">info@promimport</a>
+      </div>
+      <div class="footer__nav-equipment col-md-6 col-xxl-3 my-4 my-md-0">
+        <span class="footer__nav-title">
+          Оборудование
+        </span>
+        <a href="#" class="footer__nav-links">Компрессоры</a>
+        <a href="#" class="footer__nav-links">Газовые турбины</a>
+        <a href="#" class="footer__nav-links">Насосы</a>
+        <a href="#" class="footer__nav-links">Редукторы</a>
+        <a href="#" class="footer__nav-links">Диагностика и мониторинг</a>
+      </div>
+      <div class="footer__nav-services col-md-6 col-xxl my-4 my-xxl-0">
+        <span class="footer__nav-title">
+          Услуги
+        </span>
+        <a href="#" class="footer__nav-links">Поставка нового оборудования BHGE</a>
+        <a href="#" class="footer__nav-links">Подбор оборудования</a>
+        <a href="#" class="footer__nav-links">Модернизация оборудования</a>
+        <a href="#" class="footer__nav-links">Сервисное обслуживание и поставка ЗИП оборудования BHG</a>
+      </div>
+      <div class="footer__nav-phone col-md-6 col-xxl-auto my-4 my-xxl-0">
+        <span class="footer__nav-title">
+          +7 (495) 108-02-08
+        </span>
+        <a href="#" class="footer__nav-links">Запасные части</a>
+        <a href="#" class="footer__nav-links">О кампании</a>
+        <a href="#" class="footer__nav-links">Новости</a>
+        <a href="#" class="footer__nav-links">Вакансии</a>
+        <a href="#" class="footer__nav-links">Контакты</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
